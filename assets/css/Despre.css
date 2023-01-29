@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.about {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: #191919;
+}
+
+.about img {
+  height: auto;
+  width: 420px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h1 {
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: #13deff;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.about-text p {
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.butoncontact {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 20px 10px;
+  font-weight: bold;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.span1 {
+  background: #929292;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.buttoncontact:hover span {
+  width: 100%;
+}
+
+/* Aicia incepe skill-urile mele */
+
+.parinte {
+  text-transform: uppercase;
+}
+
+.h1a {
+  text-align: center;
+}
+
+.h3a {
+  margin: 20px;
+}
+
+.skille {
+  width: 500px;
+  margin: 70px auto;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background: #3d3d3d;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg,rgb(236, 0, 140,1),0%,rgba(0, 255, 212, 1)100%);
+}
+
+.html {
+  width: 83%;
+  animation: html 3s;
+}
+
+.css {
+  width: 65%;
+  animation: css 3s;
+}
+
+.photoshop {
+  width: 92%;
+  animation: photoshop 3s;
+}
+
+.illustrator {
+  width: 73%;
+  animation: illustrator 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 83%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 92%;
+  }
+}
+
+@keyframes illustrator {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 73%;
+  }
+}
+
